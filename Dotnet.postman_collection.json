@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "f876ebd2-73b3-4658-bced-5ccf9e186522",
+		"name": "Dotnet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14772004"
+	},
+	"item": [
+		{
+			"name": "getAllPizzas",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoIjp7InVybCI6Imh0dHA6Ly9sb2NhbGhvc3QiLCJwb3J0Ijo4MDY5LCJkYiI6InRlc3QiLCJ1c2VybmFtZSI6ImRldl9hZG1pbiIsInBhc3N3b3JkIjoiYWRtaW4ifSwiaWF0IjoxNzU1NTA2MDM2fQ.v3kkog6d6Hu181hIY_CwQakzRWmY6d-OaCFWSv9-NMM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "apiKey",
+						"value": "JKxGMd0UVIPiD6qxr2Wilgeh1QWMDLlvwf3YfzpTU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5203/pizza/getWithCustomers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5203",
+					"path": [
+						"pizza",
+						"getWithCustomers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSinglePizza",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoIjp7InVybCI6Imh0dHA6Ly9sb2NhbGhvc3QiLCJwb3J0Ijo4MDY5LCJkYiI6InRlc3QiLCJ1c2VybmFtZSI6ImRldl9hZG1pbiIsInBhc3N3b3JkIjoiYWRtaW4ifSwiaWF0IjoxNzU1NTA2MDM2fQ.v3kkog6d6Hu181hIY_CwQakzRWmY6d-OaCFWSv9-NMM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "apiKey",
+						"value": "JKxGMd0UVIPiD6qxr2Wilgeh1QWMDLlvwf3YfzpTU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5203/pizza/getWithShops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5203",
+					"path": [
+						"pizza",
+						"getWithShops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPizzasWithShops",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoIjp7InVybCI6Imh0dHA6Ly9sb2NhbGhvc3QiLCJwb3J0Ijo4MDY5LCJkYiI6InRlc3QiLCJ1c2VybmFtZSI6ImRldl9hZG1pbiIsInBhc3N3b3JkIjoiYWRtaW4ifSwiaWF0IjoxNzU1NTA2MDM2fQ.v3kkog6d6Hu181hIY_CwQakzRWmY6d-OaCFWSv9-NMM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "apiKey",
+						"value": "JKxGMd0UVIPiD6qxr2Wilgeh1QWMDLlvwf3YfzpTU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5203/pizza/getWithShops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5203",
+					"path": [
+						"pizza",
+						"getWithShops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllPizzasWithCustomers",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRoIjp7InVybCI6Imh0dHA6Ly9sb2NhbGhvc3QiLCJwb3J0Ijo4MDY5LCJkYiI6InRlc3QiLCJ1c2VybmFtZSI6ImRldl9hZG1pbiIsInBhc3N3b3JkIjoiYWRtaW4ifSwiaWF0IjoxNzU1NTA2MDM2fQ.v3kkog6d6Hu181hIY_CwQakzRWmY6d-OaCFWSv9-NMM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "apiKey",
+						"value": "JKxGMd0UVIPiD6qxr2Wilgeh1QWMDLlvwf3YfzpTU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5203/pizza/getWithCustomers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5203",
+					"path": [
+						"pizza",
+						"getWithCustomers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddPizza",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n    \"name\": \"Sea Ranch\",\r\n    \"isExtraCheese\": true,\r\n    \"isGlutenFree\": false,\r\n    \"shops\":[\r\n        {\r\n            \"name\":\"Primos\"\r\n        }\r\n    ]\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5203/pizza",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5203",
+					"path": [
+						"pizza"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatePizza",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n    \"name\": \"Sea Ranch\",\r\n    \"isExtraCheese\": true,\r\n    \"isGlutenFree\": false,\r\n    \"shops\":[\r\n        {\r\n            \"name\":\"Primos\"\r\n        }\r\n    ]\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5203/pizza",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5203",
+					"path": [
+						"pizza"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addCustomersToPizza",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n    \"name\": \"Sea Ranch\",\r\n    \"isExtraCheese\": true,\r\n    \"isGlutenFree\": false,\r\n    \"customers\":[\r\n        {\r\n            \"name\":\"Saher\"\r\n        },\r\n        {\r\n            \"name\":\"Samy\"\r\n        }\r\n    ]\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5203/pizza/AddCustomersToPizza",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5203",
+					"path": [
+						"pizza",
+						"AddCustomersToPizza"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
